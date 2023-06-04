@@ -65,6 +65,37 @@ title Space Engineers (Subset) Progression Tree
 ++++ Yield Module
 ++++ Reactor (Group)
 +++++ Warhead
-
+++ Landing Gear (Group)
++++ Seat
++++ Wheels (Group)
++++ Parachute
++++ Flight Seat (Group)
++++ Cockpit (Group)
+++++ Small Grid Gatling Gun
+++++ Thrusters Atmospheric (Group)
+++++ Thrusters Hydrogen (Group)
+++++ Thrusters Ion (Group)
+++++ Gyrscope
+++++ Grinder (Group)
+++++ Welder
+++++ Drill
+++++ Small Grid Rocket Launcher
+++ Oxygen Farm
+++ H2/O2 Generator
++++ Oxygen Tank (Group)
++++ Cryo Chamber
++++ Air Vent
++++ Hydrogen Engine 
+++ Cargo Container (Group)
++++ Small Grid Conveyor (Group)
++++ Conveyor (Group)
+++++ Collector (Group)
+++++ Connector
+++++ Ejector
+++++ Small Grid Connector
+++++ Conveyor Sorter
+++ Solar Panel
+++ Wind Turbine
++++ Merge Block
 @endwbs
 ```
