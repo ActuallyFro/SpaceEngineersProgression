@@ -23,7 +23,7 @@ title Space Engineers (Subset) Progression Tree
 ++ Basic Assembler
 +++ Battery
 ++++ Control Panel
-++++ Four Button Panel (Group) [ID REAL NAME]
+++++ Button Panel (Group)
 ++++ Piston (Group)
 ++++ Rotor (Group)
 ++++ Hinge (Group)
@@ -31,17 +31,28 @@ title Space Engineers (Subset) Progression Tree
 ++++ Beacon
 +++++ Antenna
 ++++++ Laser Antenna 
-++++ Sliding Door (Group)
+++++ Door (Group)
 +++ Medical Room 
-+++ Light (group)
++++ Spot Light (group)
++++ Interior Light
 ++++ Projector
-++++ Light Bars
-++++ Glass Panel Windows
+++++ AI Flight (Group)
++++++ AI Recorder {Task}
++++++ AI Basic {Task}
++++++ AI Flight {Task}
++++++ AI Defensive {Task}
++++++ AI Offensive {Task}
+++++ LCDs
 ++++ Sensor 
-++++ Programmable Block
+++++ Programmable Block (Group)
 ++++ Timer Block
+++++ Event Controller
+++++ Window (Group)
 +++ Assembler
-++++ Missile Turret
+++++ Rocket Launcher (Group)
++++++ Railgun
++++++ Artillery
++++++ Assault Gun
 ++++ Gatling Gun
 +++++ Decoy
 ++++ Speed Module (Group)
@@ -56,6 +67,7 @@ title Space Engineers (Subset) Progression Tree
 +++ Catwalks
 +++ Ramps
 +++ Grated Catwalks (Group) <Warfare>
++++ Railing Straight (Group) <Warfare>
 ++ Basic Refinery
 +++ Ore Detector
 +++ Drill
@@ -69,7 +81,7 @@ title Space Engineers (Subset) Progression Tree
 +++ Seat
 +++ Wheels (Group)
 +++ Parachute
-+++ Flight Seat (Group)
++++ Control Station (Group)
 +++ Cockpit (Group)
 ++++ Small Grid Gatling Gun
 ++++ Thrusters Atmospheric (Group)
@@ -89,6 +101,7 @@ title Space Engineers (Subset) Progression Tree
 ++ Cargo Container (Group)
 +++ Small Grid Conveyor (Group)
 +++ Conveyor (Group)
+++++ Reinforced Conveyor Tube (Group)
 ++++ Collector (Group)
 ++++ Connector
 ++++ Ejector
