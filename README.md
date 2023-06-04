@@ -7,6 +7,8 @@ A Soure
 -------
 From u/AhCrapItsYou [Progression Tree](https://www.reddit.com/r/spaceengineers/comments/n7ih2g/progression_tree_reference/)
 
+![A 2021 Capture of the Progression Tree](./Progression_Tree.jpg)
+
 The Code
 --------
 ```
