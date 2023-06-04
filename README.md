@@ -16,6 +16,16 @@ title Progression
 
 + Progression
 ++ Basic Assembler
++++ Battery
+++++ Control Panel
+++++ Four Button Panel (Group) [ID REAL NAME]
+++++ Piston (Group)
+++++ Rotor (Group)
+++++ Hinge (Group)
+++++ Camera
+++++ Beacon
++++++ Antenna
+++++++ Laser Antenna 
 +++ Medical Room 
 +++ Light (group)
 ++++ Projector
@@ -23,6 +33,7 @@ title Progression
 ++++ Glass Panel Windows
 ++++ Sensor 
 ++++ Programmable Block
+++++ Timer Block
 +++ Assembler
 ++++ Missile Turret
 ++++ Gatling Gun
@@ -30,6 +41,9 @@ title Progression
 ++++ Speed Module (Group)
 ++++ Power Module
 ++++ Yield Module
+++++ Gravity Generator
++++++ Jump Drive
++++++ Artificial Mass
 
 @endwbs
 ```
