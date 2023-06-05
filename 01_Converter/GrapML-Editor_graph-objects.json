@@ -1,0 +1,4094 @@
+{
+  "graphObjects": [
+    {
+      "id": "Progression",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#d400f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": "35",
+          "nodeColor": "#d400f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Progression",
+      "properties": [],
+      "index": 0,
+      "x": 34.744987492905345,
+      "y": -14.283940572226456,
+      "vy": 0,
+      "vx": 0,
+      "fx": 34.744987492905345,
+      "fy": -14.283940572226456
+    },
+    {
+      "id": "Progression-to-Basic_Assembler",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Progression",
+      "sourceId": "Progression",
+      "target": "Basic Assembler",
+      "targetId": "Basic_Assembler",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Basic_Assembler",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Basic Assembler",
+      "properties": [],
+      "index": 1,
+      "x": 331.2831585804535,
+      "y": 40.94979201563331,
+      "vy": 0.00023154188913479534,
+      "vx": 0.0002168548145160907,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Basic_Assembler-to-Battery",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Basic_Assembler",
+      "sourceId": "Basic_Assembler",
+      "target": "Battery",
+      "targetId": "Battery",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Battery",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Battery",
+      "properties": [],
+      "index": 2,
+      "x": 356.97782769182515,
+      "y": -167.38871990025143,
+      "vy": 0,
+      "vx": 0,
+      "fx": 356.97782769182515,
+      "fy": -167.38871990025143
+    },
+    {
+      "id": "Battery-to-Control_Panel",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Battery",
+      "sourceId": "Battery",
+      "target": "Control Panel",
+      "targetId": "Control_Panel",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Control_Panel",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Control Panel",
+      "properties": [],
+      "index": 3,
+      "x": 318.3535338609945,
+      "y": -213.30171891814544,
+      "vy": 0.0004637089973196926,
+      "vx": -0.0005995046932628313,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Battery-to-Button_Panel_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Battery",
+      "sourceId": "Battery",
+      "target": "Button Panel (Group)",
+      "targetId": "Button_Panel_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Button_Panel_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Button Panel (Group)",
+      "properties": [],
+      "index": 4,
+      "x": 416.1876709128808,
+      "y": -178.1956752732377,
+      "vy": -0.000020972311246023185,
+      "vx": 0.00022139632291383394,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Battery-to-Piston_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Battery",
+      "sourceId": "Battery",
+      "target": "Piston (Group)",
+      "targetId": "Piston_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Piston_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Piston (Group)",
+      "properties": [],
+      "index": 5,
+      "x": 377.3729067286356,
+      "y": -223.93448731950065,
+      "vy": -0.00018750112552545008,
+      "vx": 0.000004578014046178417,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Battery-to-Rotor_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Battery",
+      "sourceId": "Battery",
+      "target": "Rotor (Group)",
+      "targetId": "Rotor_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Rotor_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Rotor (Group)",
+      "properties": [],
+      "index": 6,
+      "x": 353.78013708778224,
+      "y": -79.06504069764829,
+      "vy": 0.0007914211027093283,
+      "vx": -0.0005629348359130072,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Battery-to-Hinge_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Battery",
+      "sourceId": "Battery",
+      "target": "Hinge (Group)",
+      "targetId": "Hinge_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Hinge_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Hinge (Group)",
+      "properties": [],
+      "index": 7,
+      "x": 395.92477663614386,
+      "y": -121.75492406799921,
+      "vy": 0.0005413646226332388,
+      "vx": -0.0004283595715194936,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Battery-to-Camera",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Battery",
+      "sourceId": "Battery",
+      "target": "Camera",
+      "targetId": "Camera",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Camera",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Camera",
+      "properties": [],
+      "index": 8,
+      "x": 276.23978501027483,
+      "y": -170.6005217560863,
+      "vy": 0.000449697699561516,
+      "vx": -0.0014540080752085036,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Battery-to-Beacon",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Battery",
+      "sourceId": "Battery",
+      "target": "Beacon",
+      "targetId": "Beacon",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Beacon",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Beacon",
+      "properties": [],
+      "index": 9,
+      "x": 436.39962639040965,
+      "y": -234.67639880126598,
+      "vy": -0.0003675307850895277,
+      "vx": 0.00006205413445770323,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Beacon-to-Antenna",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Beacon",
+      "sourceId": "Beacon",
+      "target": "Antenna",
+      "targetId": "Antenna",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Antenna",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Antenna",
+      "properties": [],
+      "index": 10,
+      "x": 508.5897002183309,
+      "y": -296.11211079962396,
+      "vy": 0,
+      "vx": 0,
+      "fx": 508.5897002183309,
+      "fy": -296.11211079962396
+    },
+    {
+      "id": "Antenna-to-Laser_Antenna",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Antenna",
+      "sourceId": "Antenna",
+      "target": "Laser Antenna",
+      "targetId": "Laser_Antenna",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Laser_Antenna",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Laser Antenna",
+      "properties": [],
+      "index": 11,
+      "x": 636.9647973328233,
+      "y": -310.72636785808567,
+      "vy": 0,
+      "vx": 0,
+      "fx": 636.9647973328233,
+      "fy": -310.72636785808567
+    },
+    {
+      "id": "Battery-to-Door_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Battery",
+      "sourceId": "Battery",
+      "target": "Door (Group)",
+      "targetId": "Door_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Door_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Door (Group)",
+      "properties": [],
+      "index": 12,
+      "x": 314.8518792993648,
+      "y": -124.69077888782556,
+      "vy": 0.0000613044003007027,
+      "vx": -0.0005696298347537716,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Basic_Assembler-to-Medical_Room",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Basic_Assembler",
+      "sourceId": "Basic_Assembler",
+      "target": "Medical Room",
+      "targetId": "Medical_Room",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Medical_Room",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Medical Room",
+      "properties": [],
+      "index": 13,
+      "x": 309.08117936593595,
+      "y": -14.772105599456054,
+      "vy": -0.00012549808230806237,
+      "vx": -0.000007941751967045339,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Basic_Assembler-to-Spot_Light_(group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Basic_Assembler",
+      "sourceId": "Basic_Assembler",
+      "target": "Spot Light (group)",
+      "targetId": "Spot_Light_(group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Spot_Light_(group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Spot Light (group)",
+      "properties": [],
+      "index": 14,
+      "x": 271.92417982433193,
+      "y": 32.32647654207824,
+      "vy": 0.000012028091028444022,
+      "vx": -0.0001720713315012376,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Basic_Assembler-to-Interior_Light",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Basic_Assembler",
+      "sourceId": "Basic_Assembler",
+      "target": "Interior Light",
+      "targetId": "Interior_Light",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Interior_Light",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Interior Light",
+      "properties": [],
+      "index": 15,
+      "x": 522.6101615888047,
+      "y": 56.81874851851114,
+      "vy": 0,
+      "vx": 0,
+      "fx": 522.6101615888047,
+      "fy": 56.81874851851114
+    },
+    {
+      "id": "Interior_Light-to-Projector",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Light",
+      "sourceId": "Interior_Light",
+      "target": "Projector",
+      "targetId": "Projector",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Projector",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Projector",
+      "properties": [],
+      "index": 16,
+      "x": 452.43973674295717,
+      "y": 20.79913835162123,
+      "vy": -0.0005284607248675464,
+      "vx": -0.00043167307419861024,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Interior_Light-to-AI_Flight_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Light",
+      "sourceId": "Interior_Light",
+      "target": "AI Flight (Group)",
+      "targetId": "AI_Flight_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "AI_Flight_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "AI Flight (Group)",
+      "properties": [],
+      "index": 17,
+      "x": 736.3952348396448,
+      "y": 88.6419066433055,
+      "vy": 0,
+      "vx": 0,
+      "fx": 736.3952348396448,
+      "fy": 88.6419066433055
+    },
+    {
+      "id": "AI_Flight_(Group)-to-AI_Recorder_{Task}",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "AI_Flight_(Group)",
+      "sourceId": "AI_Flight_(Group)",
+      "target": "AI Recorder {Task}",
+      "targetId": "AI_Recorder_{Task}",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "AI_Recorder_{Task}",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "AI Recorder {Task}",
+      "properties": [],
+      "index": 18,
+      "x": 772.0774456046652,
+      "y": 40.42795984220676,
+      "vy": -0.00033543193150945976,
+      "vx": 0.000263258766539028,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "AI_Flight_(Group)-to-AI_Basic_{Task}",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "AI_Flight_(Group)",
+      "sourceId": "AI_Flight_(Group)",
+      "target": "AI Basic {Task}",
+      "targetId": "AI_Basic_{Task}",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "AI_Basic_{Task}",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "AI Basic {Task}",
+      "properties": [],
+      "index": 19,
+      "x": 701.4760754384199,
+      "y": 137.41131952962309,
+      "vy": 0.00035512521932695577,
+      "vx": -0.00023602003890635398,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "AI_Flight_(Group)-to-AI_Flight_{Task}",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "AI_Flight_(Group)",
+      "sourceId": "AI_Flight_(Group)",
+      "target": "AI Flight {Task}",
+      "targetId": "AI_Flight_{Task}",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "AI_Flight_{Task}",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "AI Flight {Task}",
+      "properties": [],
+      "index": 20,
+      "x": 761.6773172748636,
+      "y": 143.03511391711186,
+      "vy": 0.00038152424414970366,
+      "vx": 0.0001905785828457556,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "AI_Flight_(Group)-to-AI_Defensive_{Task}",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "AI_Flight_(Group)",
+      "sourceId": "AI_Flight_(Group)",
+      "target": "AI Defensive {Task}",
+      "targetId": "AI_Defensive_{Task}",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "AI_Defensive_{Task}",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "AI Defensive {Task}",
+      "properties": [],
+      "index": 21,
+      "x": 712.0403174469262,
+      "y": 33.827296187838066,
+      "vy": -0.00039553536633663667,
+      "vx": -0.00015909487324311557,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "AI_Flight_(Group)-to-AI_Offensive_{Task}",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "AI_Flight_(Group)",
+      "sourceId": "AI_Flight_(Group)",
+      "target": "AI Offensive {Task}",
+      "targetId": "AI_Offensive_{Task}",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "AI_Offensive_{Task}",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "AI Offensive {Task}",
+      "properties": [],
+      "index": 22,
+      "x": 676.7237220303648,
+      "y": 82.54986065180407,
+      "vy": -0.00004346683718565016,
+      "vx": -0.0004238198057861776,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Interior_Light-to-LCDs",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Light",
+      "sourceId": "Interior_Light",
+      "target": "LCDs",
+      "targetId": "LCDs",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "LCDs",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "LCDs",
+      "properties": [],
+      "index": 23,
+      "x": 508.1548394132114,
+      "y": -1.4026290999028495,
+      "vy": -0.0003263582465959706,
+      "vx": 0.0002565867096522333,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Interior_Light-to-Sensor",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Light",
+      "sourceId": "Interior_Light",
+      "target": "Sensor",
+      "targetId": "Sensor",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Sensor",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Sensor",
+      "properties": [],
+      "index": 24,
+      "x": 568.1045360170303,
+      "y": -3.504703688574743,
+      "vy": -0.000627450339165075,
+      "vx": 0.0005598600880680804,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Interior_Light-to-Programmable_Block_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Light",
+      "sourceId": "Interior_Light",
+      "target": "Programmable Block (Group)",
+      "targetId": "Programmable_Block_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Programmable_Block_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Programmable Block (Group)",
+      "properties": [],
+      "index": 25,
+      "x": 466.86808262377957,
+      "y": 79.01368571525326,
+      "vy": -0.00004275977464473198,
+      "vx": -0.00006004311574792261,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Interior_Light-to-Timer_Block",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Light",
+      "sourceId": "Interior_Light",
+      "target": "Timer Block",
+      "targetId": "Timer_Block",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Timer_Block",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Timer Block",
+      "properties": [],
+      "index": 26,
+      "x": 513.940403949271,
+      "y": 116.18840545708345,
+      "vy": 0.00007404098060668808,
+      "vx": 0.00040092292410104873,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Interior_Light-to-Event_Controller",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Light",
+      "sourceId": "Interior_Light",
+      "target": "Event Controller",
+      "targetId": "Event_Controller",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Event_Controller",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Event Controller",
+      "properties": [],
+      "index": 27,
+      "x": 573.8894577269608,
+      "y": 114.06311839284331,
+      "vy": 0.00031410355111177317,
+      "vx": 0.0007191995857995368,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Interior_Light-to-Window_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Light",
+      "sourceId": "Interior_Light",
+      "target": "Window (Group)",
+      "targetId": "Window_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Window_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Window (Group)",
+      "properties": [],
+      "index": 28,
+      "x": 582.5629378235828,
+      "y": 54.704630269477896,
+      "vy": -0.000020184414280403885,
+      "vx": 0.00023108556117013324,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Basic_Assembler-to-Assembler",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Basic_Assembler",
+      "sourceId": "Basic_Assembler",
+      "target": "Assembler",
+      "targetId": "Assembler",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Assembler",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Assembler",
+      "properties": [],
+      "index": 29,
+      "x": 390.3554160885228,
+      "y": 269.5244206041189,
+      "vy": 0,
+      "vx": 0,
+      "fx": 390.3554160885228,
+      "fy": 269.5244206041189
+    },
+    {
+      "id": "Assembler-to-Rocket_Launcher_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Assembler",
+      "sourceId": "Assembler",
+      "target": "Rocket Launcher (Group)",
+      "targetId": "Rocket_Launcher_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Rocket_Launcher_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Rocket Launcher (Group)",
+      "properties": [],
+      "index": 30,
+      "x": 478.125862991965,
+      "y": 311.1652195716958,
+      "vy": 0,
+      "vx": 0,
+      "fx": 478.125862991965,
+      "fy": 311.1652195716958
+    },
+    {
+      "id": "Rocket_Launcher_(Group)-to-Railgun",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Rocket_Launcher_(Group)",
+      "sourceId": "Rocket_Launcher_(Group)",
+      "target": "Railgun",
+      "targetId": "Railgun",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Railgun",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Railgun",
+      "properties": [],
+      "index": 31,
+      "x": 520.2299259854117,
+      "y": 353.887576474672,
+      "vy": 0.0002829393202136328,
+      "vx": 0.00027961059554382895,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Rocket_Launcher_(Group)-to-Artillery",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Rocket_Launcher_(Group)",
+      "sourceId": "Rocket_Launcher_(Group)",
+      "target": "Artillery",
+      "targetId": "Artillery",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Artillery",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Artillery",
+      "properties": [],
+      "index": 32,
+      "x": 419.1589583534134,
+      "y": 322.1584020285429,
+      "vy": 0.000205545174101858,
+      "vx": -0.0003671922271380603,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Rocket_Launcher_(Group)-to-Assault_Gun",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Rocket_Launcher_(Group)",
+      "sourceId": "Rocket_Launcher_(Group)",
+      "target": "Assault Gun",
+      "targetId": "Assault_Gun",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Assault_Gun",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Assault Gun",
+      "properties": [],
+      "index": 33,
+      "x": 458.24046710775644,
+      "y": 367.75604841350844,
+      "vy": 0.0003795494535157321,
+      "vx": -0.00012014251587900591,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Assembler-to-Gatling_Gun",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Assembler",
+      "sourceId": "Assembler",
+      "target": "Gatling Gun",
+      "targetId": "Gatling_Gun",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Gatling_Gun",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Gatling Gun",
+      "properties": [],
+      "index": 34,
+      "x": 470.91375956554305,
+      "y": 216.63620948858494,
+      "vy": 0,
+      "vx": 0,
+      "fx": 470.91375956554305,
+      "fy": 216.63620948858494
+    },
+    {
+      "id": "Gatling_Gun-to-Decoy",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Gatling_Gun",
+      "sourceId": "Gatling_Gun",
+      "target": "Decoy",
+      "targetId": "Decoy",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Decoy",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Decoy",
+      "properties": [],
+      "index": 35,
+      "x": 413.6478213388608,
+      "y": 198.77837916165703,
+      "vy": -0.00009006658118204192,
+      "vx": -0.000319549936991609,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Assembler-to-Speed_Module_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Assembler",
+      "sourceId": "Assembler",
+      "target": "Speed Module (Group)",
+      "targetId": "Speed_Module_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Assembler-to-Power_Module",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Assembler",
+      "sourceId": "Assembler",
+      "target": "Power Module",
+      "targetId": "Power_Module",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Power_Module",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Power Module",
+      "properties": [],
+      "index": 36,
+      "x": 178.6412367883323,
+      "y": 329.0239205963437,
+      "vy": 0.000017767402618411715,
+      "vx": -0.000002684952884678438,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Assembler-to-Yield_Module",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Assembler",
+      "sourceId": "Assembler",
+      "target": "Yield Module",
+      "targetId": "Yield_Module",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Assembler-to-Gravity_Generator",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Assembler",
+      "sourceId": "Assembler",
+      "target": "Gravity Generator",
+      "targetId": "Gravity_Generator",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Gravity_Generator",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Gravity Generator",
+      "properties": [],
+      "index": 37,
+      "x": 172.8395092111664,
+      "y": 105.4904389060323,
+      "vy": 0,
+      "vx": 0,
+      "fx": 172.8395092111664,
+      "fy": 105.4904389060323
+    },
+    {
+      "id": "Gravity_Generator-to-Jump_Drive",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Gravity_Generator",
+      "sourceId": "Gravity_Generator",
+      "target": "Jump Drive",
+      "targetId": "Jump_Drive",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Jump_Drive",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Jump Drive",
+      "properties": [],
+      "index": 38,
+      "x": 197.2593404449708,
+      "y": 160.2786953322813,
+      "vy": 0.0003402078623368835,
+      "vx": 0.0001501922127318254,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Gravity_Generator-to-Artificial_Mass",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Gravity_Generator",
+      "sourceId": "Gravity_Generator",
+      "target": "Artificial Mass",
+      "targetId": "Artificial_Mass",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Artificial_Mass",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Artificial Mass",
+      "properties": [],
+      "index": 39,
+      "x": 232.50751166687348,
+      "y": 111.63940024393041,
+      "vy": 0.000048520461619683,
+      "vx": 0.0003690373860053254,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Progression-to-Light_Armor_Block_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Progression",
+      "sourceId": "Progression",
+      "target": "Light Armor Block (Group)",
+      "targetId": "Light_Armor_Block_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Light_Armor_Block_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Light Armor Block (Group)",
+      "properties": [],
+      "index": 40,
+      "x": 148.9032175273905,
+      "y": -88.9082750919188,
+      "vy": 0,
+      "vx": 0,
+      "fx": 148.9032175273905,
+      "fy": -88.9082750919188
+    },
+    {
+      "id": "Progression-to-Interior_Wall_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Progression",
+      "sourceId": "Progression",
+      "target": "Interior Wall (Group)",
+      "targetId": "Interior_Wall_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Interior_Wall_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Interior Wall (Group)",
+      "properties": [],
+      "index": 41,
+      "x": -96.4279695959691,
+      "y": -241.63705524188458,
+      "vy": 0,
+      "vx": 0,
+      "fx": -96.4279695959691,
+      "fy": -241.63705524188458
+    },
+    {
+      "id": "Interior_Wall_(Group)-to-Ladder",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Wall_(Group)",
+      "sourceId": "Interior_Wall_(Group)",
+      "target": "Ladder",
+      "targetId": "Ladder",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Ladder",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Ladder",
+      "properties": [],
+      "index": 42,
+      "x": -6.337993355194442,
+      "y": -339.95472756021053,
+      "vy": 0,
+      "vx": 0,
+      "fx": -6.337993355194442,
+      "fy": -339.95472756021053
+    },
+    {
+      "id": "Interior_Wall_(Group)-to-Catwalks",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Wall_(Group)",
+      "sourceId": "Interior_Wall_(Group)",
+      "target": "Catwalks",
+      "targetId": "Catwalks",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Catwalks",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Catwalks",
+      "properties": [],
+      "index": 43,
+      "x": 3.74810734776824,
+      "y": -230.74536706951523,
+      "vy": 0,
+      "vx": 0,
+      "fx": 3.74810734776824,
+      "fy": -230.74536706951523
+    },
+    {
+      "id": "Interior_Wall_(Group)-to-Ramps",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Wall_(Group)",
+      "sourceId": "Interior_Wall_(Group)",
+      "target": "Ramps",
+      "targetId": "Ramps",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Ramps",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Ramps",
+      "properties": [],
+      "index": 44,
+      "x": -27.975841208903255,
+      "y": -172.65095045663014,
+      "vy": 0,
+      "vx": 0,
+      "fx": -27.975841208903255,
+      "fy": -172.65095045663014
+    },
+    {
+      "id": "Interior_Wall_(Group)-to-Grated_Catwalks_(Group)_<Warfare>",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Wall_(Group)",
+      "sourceId": "Interior_Wall_(Group)",
+      "target": "Grated Catwalks (Group) <Warfare>",
+      "targetId": "Grated_Catwalks_(Group)_<Warfare>",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Grated_Catwalks_(Group)_<Warfare>",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Grated Catwalks (Group) <Warfare>",
+      "properties": [],
+      "index": 45,
+      "x": -172.82044532793944,
+      "y": -360.9263293125739,
+      "vy": 0,
+      "vx": 0,
+      "fx": -172.82044532793944,
+      "fy": -360.9263293125739
+    },
+    {
+      "id": "Interior_Wall_(Group)-to-Railing_Straight_(Group)_<Warfare>",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Interior_Wall_(Group)",
+      "sourceId": "Interior_Wall_(Group)",
+      "target": "Railing Straight (Group) <Warfare>",
+      "targetId": "Railing_Straight_(Group)_<Warfare>",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Railing_Straight_(Group)_<Warfare>",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Railing Straight (Group) <Warfare>",
+      "properties": [],
+      "index": 46,
+      "x": -239.16784970873897,
+      "y": -306.6322417557251,
+      "vy": 0,
+      "vx": 0,
+      "fx": -239.16784970873897,
+      "fy": -306.6322417557251
+    },
+    {
+      "id": "Progression-to-Basic_Refinery",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Progression",
+      "sourceId": "Progression",
+      "target": "Basic Refinery",
+      "targetId": "Basic_Refinery",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Basic_Refinery",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Basic Refinery",
+      "properties": [],
+      "index": 47,
+      "x": -70.24139926257871,
+      "y": 261.5892292048807,
+      "vy": 0,
+      "vx": 0,
+      "fx": -70.24139926257871,
+      "fy": 261.5892292048807
+    },
+    {
+      "id": "Basic_Refinery-to-Ore_Detector",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Basic_Refinery",
+      "sourceId": "Basic_Refinery",
+      "target": "Ore Detector",
+      "targetId": "Ore_Detector",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Ore_Detector",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Ore Detector",
+      "properties": [],
+      "index": 48,
+      "x": 31.588731897618366,
+      "y": 167.11648482876944,
+      "vy": 0,
+      "vx": 0,
+      "fx": 31.588731897618366,
+      "fy": 167.11648482876944
+    },
+    {
+      "id": "Basic_Refinery-to-Drill",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Basic_Refinery",
+      "sourceId": "Basic_Refinery",
+      "target": "Drill",
+      "targetId": "Drill",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Basic_Refinery-to-Refinery_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Basic_Refinery",
+      "sourceId": "Basic_Refinery",
+      "target": "Refinery (Group)",
+      "targetId": "Refinery_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Refinery_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Refinery (Group)",
+      "properties": [],
+      "index": 49,
+      "x": 108.90276345785142,
+      "y": 265.03811864500494,
+      "vy": 0,
+      "vx": 0,
+      "fx": 108.90276345785142,
+      "fy": 265.03811864500494
+    },
+    {
+      "id": "Refinery_(Group)-to-Speed_Module_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Refinery_(Group)",
+      "sourceId": "Refinery_(Group)",
+      "target": "Speed Module (Group)",
+      "targetId": "Speed_Module_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Speed_Module_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Speed Module (Group)",
+      "properties": [],
+      "index": 50,
+      "x": 253.5933167835424,
+      "y": 265.7275292879194,
+      "vy": -0.00006601125802369394,
+      "vx": 0.0005154159872814583,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Refinery_(Group)-to-Power_Module",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Refinery_(Group)",
+      "sourceId": "Refinery_(Group)",
+      "target": "Power Module",
+      "targetId": "Power_Module",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Power_Module",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Power Module",
+      "properties": [],
+      "index": 51,
+      "x": 257.46589353876834,
+      "y": 325.6010061347143,
+      "vy": 0,
+      "vx": 0,
+      "fx": 257.46589353876834,
+      "fy": 325.6010061347143
+    },
+    {
+      "id": "Refinery_(Group)-to-Yield_Module",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Refinery_(Group)",
+      "sourceId": "Refinery_(Group)",
+      "target": "Yield Module",
+      "targetId": "Yield_Module",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Yield_Module",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Yield Module",
+      "properties": [],
+      "index": 52,
+      "x": 258.09225452429644,
+      "y": 391.5258106821934,
+      "vy": 0,
+      "vx": 0,
+      "fx": 258.09225452429644,
+      "fy": 391.5258106821934
+    },
+    {
+      "id": "Refinery_(Group)-to-Reactor_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Refinery_(Group)",
+      "sourceId": "Refinery_(Group)",
+      "target": "Reactor (Group)",
+      "targetId": "Reactor_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Reactor_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Reactor (Group)",
+      "properties": [],
+      "index": 53,
+      "x": 28.249568334167975,
+      "y": 323.5690832714979,
+      "vy": 0,
+      "vx": 0,
+      "fx": 28.249568334167975,
+      "fy": 323.5690832714979
+    },
+    {
+      "id": "Reactor_(Group)-to-Warhead",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Reactor_(Group)",
+      "sourceId": "Reactor_(Group)",
+      "target": "Warhead",
+      "targetId": "Warhead",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Warhead",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Warhead",
+      "properties": [],
+      "index": 54,
+      "x": 48.94434926250499,
+      "y": 267.2662367280892,
+      "vy": -0.00036133278047150753,
+      "vx": -0.000018164070323255666,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Progression-to-Landing_Gear_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Progression",
+      "sourceId": "Progression",
+      "target": "Landing Gear (Group)",
+      "targetId": "Landing_Gear_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Landing_Gear_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Landing Gear (Group)",
+      "properties": [],
+      "index": 55,
+      "x": -492.6781752344191,
+      "y": 5.146542380614761,
+      "vy": 0,
+      "vx": 0,
+      "fx": -492.6781752344191,
+      "fy": 5.146542380614761
+    },
+    {
+      "id": "Landing_Gear_(Group)-to-Seat",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Landing_Gear_(Group)",
+      "sourceId": "Landing_Gear_(Group)",
+      "target": "Seat",
+      "targetId": "Seat",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Seat",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Seat",
+      "properties": [],
+      "index": 56,
+      "x": -498.17188883181126,
+      "y": -54.58303970210021,
+      "vy": -0.0004247455380945855,
+      "vx": -0.000036516524770475664,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Landing_Gear_(Group)-to-Wheels_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Landing_Gear_(Group)",
+      "sourceId": "Landing_Gear_(Group)",
+      "target": "Wheels (Group)",
+      "targetId": "Wheels_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Wheels_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Wheels (Group)",
+      "properties": [],
+      "index": 57,
+      "x": -438.27650879698444,
+      "y": 30.410472805787943,
+      "vy": 0.00017522436293267838,
+      "vx": 0.0003864375228207019,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Landing_Gear_(Group)-to-Parachute",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Landing_Gear_(Group)",
+      "sourceId": "Landing_Gear_(Group)",
+      "target": "Parachute",
+      "targetId": "Parachute",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Parachute",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Parachute",
+      "properties": [],
+      "index": 58,
+      "x": -443.6348368238046,
+      "y": -29.386898475807744,
+      "vy": -0.00024275944654948578,
+      "vx": 0.0003480280859587133,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Landing_Gear_(Group)-to-Control_Station_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Landing_Gear_(Group)",
+      "sourceId": "Landing_Gear_(Group)",
+      "target": "Control Station (Group)",
+      "targetId": "Control_Station_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Control_Station_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Control Station (Group)",
+      "properties": [],
+      "index": 59,
+      "x": -487.45389020670405,
+      "y": 64.90029288821049,
+      "vy": 0.00042414461319209286,
+      "vx": 0.000041640114925001774,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Landing_Gear_(Group)-to-Cockpit_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Landing_Gear_(Group)",
+      "sourceId": "Landing_Gear_(Group)",
+      "target": "Cockpit (Group)",
+      "targetId": "Cockpit_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Cockpit_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Cockpit (Group)",
+      "properties": [],
+      "index": 60,
+      "x": -396.22043331305167,
+      "y": 184.43190269280637,
+      "vy": 0,
+      "vx": 0,
+      "fx": -396.22043331305167,
+      "fy": 184.43190269280637
+    },
+    {
+      "id": "Cockpit_(Group)-to-Small_Grid_Gatling_Gun",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Cockpit_(Group)",
+      "sourceId": "Cockpit_(Group)",
+      "target": "Small Grid Gatling Gun",
+      "targetId": "Small_Grid_Gatling_Gun",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Small_Grid_Gatling_Gun",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Small Grid Gatling Gun",
+      "properties": [],
+      "index": 61,
+      "x": -544.4253073683894,
+      "y": 141.38784146382142,
+      "vy": 0,
+      "vx": 0,
+      "fx": -544.4253073683894,
+      "fy": 141.38784146382142
+    },
+    {
+      "id": "Cockpit_(Group)-to-Thrusters_Atmospheric_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Cockpit_(Group)",
+      "sourceId": "Cockpit_(Group)",
+      "target": "Thrusters Atmospheric (Group)",
+      "targetId": "Thrusters_Atmospheric_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Thrusters_Atmospheric_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Thrusters Atmospheric (Group)",
+      "properties": [],
+      "index": 62,
+      "x": -305.5536099473454,
+      "y": 278.2790011614437,
+      "vy": 0,
+      "vx": 0,
+      "fx": -305.5536099473454,
+      "fy": 278.2790011614437
+    },
+    {
+      "id": "Cockpit_(Group)-to-Thrusters_Hydrogen_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Cockpit_(Group)",
+      "sourceId": "Cockpit_(Group)",
+      "target": "Thrusters Hydrogen (Group)",
+      "targetId": "Thrusters_Hydrogen_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Thrusters_Hydrogen_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Thrusters Hydrogen (Group)",
+      "properties": [],
+      "index": 63,
+      "x": -409.6083084955389,
+      "y": 293.702380263487,
+      "vy": 0,
+      "vx": 0,
+      "fx": -409.6083084955389,
+      "fy": 293.702380263487
+    },
+    {
+      "id": "Cockpit_(Group)-to-Thrusters_Ion_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Cockpit_(Group)",
+      "sourceId": "Cockpit_(Group)",
+      "target": "Thrusters Ion (Group)",
+      "targetId": "Thrusters_Ion_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Thrusters_Ion_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Thrusters Ion (Group)",
+      "properties": [],
+      "index": 64,
+      "x": -331.36490842719525,
+      "y": 314.6443884339145,
+      "vy": 0,
+      "vx": 0,
+      "fx": -331.36490842719525,
+      "fy": 314.6443884339145
+    },
+    {
+      "id": "Cockpit_(Group)-to-Gyrscope",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Cockpit_(Group)",
+      "sourceId": "Cockpit_(Group)",
+      "target": "Gyrscope",
+      "targetId": "Gyrscope",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Gyrscope",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Gyrscope",
+      "properties": [],
+      "index": 65,
+      "x": -504.02691611803334,
+      "y": 262.9624482454357,
+      "vy": 0,
+      "vx": 0,
+      "fx": -504.02691611803334,
+      "fy": 262.9624482454357
+    },
+    {
+      "id": "Cockpit_(Group)-to-Grinder_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Cockpit_(Group)",
+      "sourceId": "Cockpit_(Group)",
+      "target": "Grinder (Group)",
+      "targetId": "Grinder_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Grinder_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Grinder (Group)",
+      "properties": [],
+      "index": 66,
+      "x": -304.5161160142045,
+      "y": 156.86853101091629,
+      "vy": 0,
+      "vx": 0,
+      "fx": -304.5161160142045,
+      "fy": 156.86853101091629
+    },
+    {
+      "id": "Cockpit_(Group)-to-Welder",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Cockpit_(Group)",
+      "sourceId": "Cockpit_(Group)",
+      "target": "Welder",
+      "targetId": "Welder",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Welder",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Welder",
+      "properties": [],
+      "index": 67,
+      "x": -258.49842829303304,
+      "y": 195.64080974352123,
+      "vy": 0,
+      "vx": 0,
+      "fx": -258.49842829303304,
+      "fy": 195.64080974352123
+    },
+    {
+      "id": "Cockpit_(Group)-to-Drill",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Cockpit_(Group)",
+      "sourceId": "Cockpit_(Group)",
+      "target": "Drill",
+      "targetId": "Drill",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Drill",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Drill",
+      "properties": [],
+      "index": 68,
+      "x": -221.44250369426317,
+      "y": 230.46115810090822,
+      "vy": 0,
+      "vx": 0,
+      "fx": -221.44250369426317,
+      "fy": 230.46115810090822
+    },
+    {
+      "id": "Cockpit_(Group)-to-Small_Grid_Rocket_Launcher",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Cockpit_(Group)",
+      "sourceId": "Cockpit_(Group)",
+      "target": "Small Grid Rocket Launcher",
+      "targetId": "Small_Grid_Rocket_Launcher",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Small_Grid_Rocket_Launcher",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Small Grid Rocket Launcher",
+      "properties": [],
+      "index": 69,
+      "x": -558.5021513398185,
+      "y": 189.59747032895223,
+      "vy": 0,
+      "vx": 0,
+      "fx": -558.5021513398185,
+      "fy": 189.59747032895223
+    },
+    {
+      "id": "Progression-to-Oxygen_Farm",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Progression",
+      "sourceId": "Progression",
+      "target": "Oxygen Farm",
+      "targetId": "Oxygen_Farm",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Oxygen_Farm",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Oxygen Farm",
+      "properties": [],
+      "index": 70,
+      "x": -96.08852891485702,
+      "y": 135.49503572382724,
+      "vy": 0,
+      "vx": 0,
+      "fx": -96.08852891485702,
+      "fy": 135.49503572382724
+    },
+    {
+      "id": "Progression-to-H2/O2_Generator",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Progression",
+      "sourceId": "Progression",
+      "target": "H2/O2 Generator",
+      "targetId": "H2/O2_Generator",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "H2/O2_Generator",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "H2/O2 Generator",
+      "properties": [],
+      "index": 71,
+      "x": 183.90241367683586,
+      "y": -296.27320689474493,
+      "vy": 0,
+      "vx": 0,
+      "fx": 183.90241367683586,
+      "fy": -296.27320689474493
+    },
+    {
+      "id": "H2/O2_Generator-to-Oxygen_Tank_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "H2/O2_Generator",
+      "sourceId": "H2/O2_Generator",
+      "target": "Oxygen Tank (Group)",
+      "targetId": "Oxygen_Tank_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Oxygen_Tank_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Oxygen Tank (Group)",
+      "properties": [],
+      "index": 72,
+      "x": 231.55426361967554,
+      "y": -259.8429298802711,
+      "vy": 0.0002481808203608162,
+      "vx": 0.0003319034972334843,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "H2/O2_Generator-to-Cryo_Chamber",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "H2/O2_Generator",
+      "sourceId": "H2/O2_Generator",
+      "target": "Cryo Chamber",
+      "targetId": "Cryo_Chamber",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Cryo_Chamber",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Cryo Chamber",
+      "properties": [],
+      "index": 73,
+      "x": 176.02786031158027,
+      "y": -236.81013295947233,
+      "vy": 0.00040905749740982735,
+      "vx": -0.000060630728065905796,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "H2/O2_Generator-to-Air_Vent",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "H2/O2_Generator",
+      "sourceId": "H2/O2_Generator",
+      "target": "Air Vent",
+      "targetId": "Air_Vent",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Air_Vent",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Air Vent",
+      "properties": [],
+      "index": 74,
+      "x": 136.53887793255484,
+      "y": -333.0775680891776,
+      "vy": -0.0002580018524850829,
+      "vx": -0.00032439384433829673,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "H2/O2_Generator-to-Hydrogen_Engine",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "H2/O2_Generator",
+      "sourceId": "H2/O2_Generator",
+      "target": "Hydrogen Engine",
+      "targetId": "Hydrogen_Engine",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Hydrogen_Engine",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Hydrogen Engine",
+      "properties": [],
+      "index": 75,
+      "x": 128.42678238653636,
+      "y": -273.46266503312813,
+      "vy": 0.00015111788640845001,
+      "vx": -0.0003849524568565687,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Progression-to-Cargo_Container_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Progression",
+      "sourceId": "Progression",
+      "target": "Cargo Container (Group)",
+      "targetId": "Cargo_Container_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Cargo_Container_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Cargo Container (Group)",
+      "properties": [],
+      "index": 76,
+      "x": -227.414088765043,
+      "y": -165.6696598872617,
+      "vy": 0,
+      "vx": 0,
+      "fx": -227.414088765043,
+      "fy": -165.6696598872617
+    },
+    {
+      "id": "Cargo_Container_(Group)-to-Small_Grid_Conveyor_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Cargo_Container_(Group)",
+      "sourceId": "Cargo_Container_(Group)",
+      "target": "Small Grid Conveyor (Group)",
+      "targetId": "Small_Grid_Conveyor_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Small_Grid_Conveyor_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Small Grid Conveyor (Group)",
+      "properties": [],
+      "index": 77,
+      "x": -344.2491446819106,
+      "y": -113.43046140808283,
+      "vy": 0,
+      "vx": 0,
+      "fx": -344.2491446819106,
+      "fy": -113.43046140808283
+    },
+    {
+      "id": "Cargo_Container_(Group)-to-Conveyor_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Cargo_Container_(Group)",
+      "sourceId": "Cargo_Container_(Group)",
+      "target": "Conveyor (Group)",
+      "targetId": "Conveyor_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Conveyor_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Conveyor (Group)",
+      "properties": [],
+      "index": 78,
+      "x": -466.27064998904456,
+      "y": -330.7267711826828,
+      "vy": 0,
+      "vx": 0,
+      "fx": -466.27064998904456,
+      "fy": -330.7267711826828
+    },
+    {
+      "id": "Conveyor_(Group)-to-Reinforced_Conveyor_Tube_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Conveyor_(Group)",
+      "sourceId": "Conveyor_(Group)",
+      "target": "Reinforced Conveyor Tube (Group)",
+      "targetId": "Reinforced_Conveyor_Tube_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Reinforced_Conveyor_Tube_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Reinforced Conveyor Tube (Group)",
+      "properties": [],
+      "index": 79,
+      "x": -483.4129961956635,
+      "y": -388.21381218304197,
+      "vy": -0.00025242075942150664,
+      "vx": -0.00009276887191513065,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Conveyor_(Group)-to-Collector_(Group)",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Conveyor_(Group)",
+      "sourceId": "Conveyor_(Group)",
+      "target": "Collector (Group)",
+      "targetId": "Collector_(Group)",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Collector_(Group)",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Collector (Group)",
+      "properties": [],
+      "index": 80,
+      "x": -407.91410632375397,
+      "y": -316.8297033531506,
+      "vy": 0.00006317068153974788,
+      "vx": 0.00026076206627659375,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Conveyor_(Group)-to-Connector",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Conveyor_(Group)",
+      "sourceId": "Conveyor_(Group)",
+      "target": "Connector",
+      "targetId": "Connector",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Connector",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Connector",
+      "properties": [],
+      "index": 81,
+      "x": -449.1263267943815,
+      "y": -273.24039356643715,
+      "vy": 0.0002671270709499036,
+      "vx": 0.000045634521262026636,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Conveyor_(Group)-to-Ejector",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Conveyor_(Group)",
+      "sourceId": "Conveyor_(Group)",
+      "target": "Ejector",
+      "targetId": "Ejector",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Ejector",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Ejector",
+      "properties": [],
+      "index": 82,
+      "x": -524.626689995659,
+      "y": -344.6259157328314,
+      "vy": -0.00001550706051609268,
+      "vx": -0.0002735924467423857,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Conveyor_(Group)-to-Small_Grid_Connector",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Conveyor_(Group)",
+      "sourceId": "Conveyor_(Group)",
+      "target": "Small Grid Connector",
+      "targetId": "Small_Grid_Connector",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Small_Grid_Connector",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Small Grid Connector",
+      "properties": [],
+      "index": 83,
+      "x": -507.4836695476584,
+      "y": -287.13668136709265,
+      "vy": 0.00018550011446736742,
+      "vx": -0.0001969930585316618,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Conveyor_(Group)-to-Conveyor_Sorter",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Conveyor_(Group)",
+      "sourceId": "Conveyor_(Group)",
+      "target": "Conveyor Sorter",
+      "targetId": "Conveyor_Sorter",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Conveyor_Sorter",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Conveyor Sorter",
+      "properties": [],
+      "index": 84,
+      "x": -425.0576206204265,
+      "y": -374.3169605417847,
+      "vy": -0.0001838711923660573,
+      "vx": 0.00019574652360096893,
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Progression-to-Solar_Panel",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Progression",
+      "sourceId": "Progression",
+      "target": "Solar Panel",
+      "targetId": "Solar_Panel",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Solar_Panel",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Solar Panel",
+      "properties": [],
+      "index": 85,
+      "x": -134.42823167217165,
+      "y": -48.00413417295863,
+      "vy": 0,
+      "vx": 0,
+      "fx": -134.42823167217165,
+      "fy": -48.00413417295863
+    },
+    {
+      "id": "Progression-to-Wind_Turbine",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Progression",
+      "sourceId": "Progression",
+      "target": "Wind Turbine",
+      "targetId": "Wind_Turbine",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Wind_Turbine",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Wind Turbine",
+      "properties": [],
+      "index": 86,
+      "x": -137.79554555621812,
+      "y": 46.587510308913465,
+      "vy": 0,
+      "vx": 0,
+      "fx": -137.79554555621812,
+      "fy": 46.587510308913465
+    },
+    {
+      "id": "Wind_Turbine-to-Merge_Block",
+      "type": "edge",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "black",
+          "labelFontSize": 12,
+          "labelColor": "#aaa"
+        }
+      ],
+      "source": "Wind_Turbine",
+      "sourceId": "Wind_Turbine",
+      "target": "Merge Block",
+      "targetId": "Merge_Block",
+      "fx": null,
+      "fy": null
+    },
+    {
+      "id": "Merge_Block",
+      "type": "node",
+      "renderSettings": [
+        {
+          "labelOffsetX": 0,
+          "labelOffsetY": 0,
+          "fillColor": "#00b4f0",
+          "labelFontSize": 12,
+          "labelColor": "black",
+          "outlineColor": "black",
+          "radiusSize": 20,
+          "nodeColor": "#00b4f0",
+          "nodeColorOutline": "black",
+          "labelAnchor": "middle"
+        }
+      ],
+      "label": "Merge Block",
+      "properties": [],
+      "index": 87,
+      "x": -217.18989812173788,
+      "y": 102.44680504338675,
+      "vy": 0,
+      "vx": 0,
+      "fx": -217.18989812173788,
+      "fy": 102.44680504338675
+    }
+  ],
+  "graphSettingsTitle": "Space Engineers Progression",
+  "graphSettingsDirectionality": "undirected",
+  "GraphMLXMLData": "",
+  "renderSettings": []
+}
