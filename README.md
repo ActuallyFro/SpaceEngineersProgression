@@ -32,7 +32,7 @@ title Space Engineers (Subset) Progression Tree
 +++++ Antenna
 ++++++ Laser Antenna 
 ++++ Door (Group)
-+++ Medical Room 
++++ Medical Room
 +++ Spot Light (group)
 +++ Interior Light
 ++++ Projector
@@ -48,6 +48,8 @@ title Space Engineers (Subset) Progression Tree
 ++++ Timer Block
 ++++ Event Controller
 ++++ Window (Group)
+++++ Sound Block
++++++ Jukebox
 +++ Assembler
 ++++ Rocket Launcher (Group)
 +++++ Railgun
@@ -83,18 +85,23 @@ title Space Engineers (Subset) Progression Tree
 +++ Parachute
 +++ Control Station (Group)
 +++ Cockpit (Group)
-++++ Small Grid Gatling Gun
-++++ Thrusters Atmospheric (Group)
-++++ Thrusters Hydrogen (Group)
-++++ Thrusters Ion (Group)
-++++ Gyrscope
-++++ Grinder (Group)
-++++ Welder
-++++ Drill
-++++ Small Grid Rocket Launcher
+++++ Flight Seat
++++++ Small Grid Gatling Gun
++++++ Thrusters Atmospheric (Group)
++++++ Thrusters Hydrogen (Group)
++++++ Thrusters Ion (Group)
++++++ Gyrscope
++++++ Grinder (Group)
++++++ Welder
++++++ Drill
+++++ Rocket Launcher(Group)
++++++ Reloadable Rocket Launcher
+++++ Railgun
 ++ Oxygen Farm
 ++ H2/O2 Generator
 +++ Oxygen Tank (Group)
+++++ H2 Tank
++++++ Hydrogen Thrusters
 +++ Cryo Chamber
 +++ Air Vent
 +++ Hydrogen Engine 
