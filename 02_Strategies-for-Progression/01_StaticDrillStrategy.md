@@ -1,0 +1,98 @@
+Cover: 
+
+- Phase I (Getting Basic Supplies Building)
+-- Building
+--- Add Medium Cargo Container to Survival kit on Starter Ship
+--- Getting Large Grid Setup
+---- Place (ideally) 3x3 NON-WELDED base of Light Armor blocks
+---- Build tower of at least 6 tall 1x1 light armor
+---- Create "Compass Spokes" (NSEW) blocks, and a final/top block
+---- Build Wind Turbine on top
+---- Build Basic Assembler 
+-- Production (Survival Kit)
+--- 1K Gravel
+--- Medium Cargo Container (i.e., the parts neeed for)
+--- Add Wind Turbine Container
+--- Add Basic Assembler
+-- Progression (Grind, then repair)
+--- Landing Gear
+--- H2/O2 Generator
+--- Small Hydrogen Tank (temporary is ok -- to enable H2 Thrusters)
+--- Small Cargo Container
+---- Conveyor
+-- Tasks
+--- Collect STONE in between activities above to keep production going
+--- ONCE the medium cargo can be built: fill it until it is full (~10K); then again when it runs out
+--- Equipment: Grab H2 Tank from H2/O2 Generator
+
+- Phase II (Merging Start Ship with Base)
+-- Note: ENSURE Survival Kit ONLY produces gravel!
+-- Building
+--- Build Small Cargo on to Assembler
+--- Build Advanced Rotor on to Small Cargo
+---- REMOVE the head
+---- Add a Small Head to the cargo
+--- Attach Sm Grid Conveyor Junction to Adv Rotor
+--- Interior Wall
+-- Production
+--- Lg Grid Small Cargo
+--- Lg Grid Adv. Rotor
+--- Sm Grid Conveyor Junction (NOT a small conveyor!)
+--- Lg Grid Turbine x2
+--- Interior Wall
+--- Medium Cargo Container x2
+--- Large Grid Battery
+--- 1K Gravel (Survival Kit)
+-- Tasks
+--- Grind down needed Thrusters (4 atmo + 1 h2) for Metal Grids (for Small Cargo)
+--- Keep filling stone into small grid Survial Kit (~10K in med cargo)
+--- Ensure Production is completed thru LARGE grid Assembler
+---- Manually move over ingots to the Assembler
+--- BEFORE the battery is produced/built -- move Survival Kit to Large Grid
+--- Grind down Survial Kit ONLY after all parts for the Adv. Rotor are acquired
+-- Progression
+--- Interior Wall (on Base)
+---- Interior Light (on Starter Ship)
+--- Battery
+---- Beacon
+----- Antenna
+
+- Phase III (Static Drill Setup -- Assume Large Grid)
+-- Production
+--- Basic Refinery
+--- Drill x1
+--- Conveyors x 8
+--- Advanced Rotor
+--- Piston 
+--- Drill x 6
+-- Building
+--- Extend conveyors out for static drilling
+--- Recommend Horizontal Drilling IF no jetpacks
+--- 
+-- Progression
+--- You sould build the Basic Refinery and tear it down for the first Drill
+---- Drills NEED a refinery
+---- However, the Survial Kit is better or equal to the Basic Refinery for Stone
+
+- Phase IV (Final Progression before Cobalt)
+-- Production
+--- Small Grid Rocket Launcher
+--- Small Grid Sound Block
+--- Small Grid Door
+--- Refinery (Less the Grids)
+--- Assembler (Less the Grids)
+--- Large Cargo Container (Less the Grids)
+-- Building
+--- On the Small Grid attached to the base
+---- Rocket Launcher
+---- Sound Block
+---- Door 
+
+- Phase V (Cobalt)
+-- Build
+--- Assembler
+--- Refinery
+--- Large Cargo Container
+-- Production 
+--- Assembler, Refinery, Large Cargo Grids
+--- Equipment: Enhanced Drill, Enhanced Grinder, Enhanced Welder
