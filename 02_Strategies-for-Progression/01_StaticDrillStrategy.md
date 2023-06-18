@@ -55,36 +55,39 @@ Note: ENSURE Survival Kit ONLY produces gravel from here on out!
 - Production
 -- Large Grid Small Cargo
 --- MOVE the small tubes to the FRONT of production queue
--- Large Grid Advanced Rotor
--- Small Grid Conveyor Junction (NOT a small conveyor!)
 -- Wind Turbine x2
--- Medium Cargo Container x2
+-- Optional: Small Grid Exetension
+--- Large Grid Advanced Rotor
+--- Small Grid Conveyor Junction (NOT a small conveyor!)
+--- Medium Cargo Container x2
 -- Large Grid Battery
 -- Interior Wall
 -- 10K Gravel (Survival Kit)
 - Building
--- Large Grid, Small Cargo on to Basic Assembler
--- Advanced Rotor on to Small Cargo
+-- Large Grid: add Small Cargo on to Basic Assembler
+-- Optional: Advanced Rotor on to Small Cargo
 --- REMOVE the large grid Rotor Head
 --- Add a "Small Head" to the cargo (via control menus)
 -- Attach Small Grid Conveyor Junction to Advanced Rotor
--- Interior Wall (to unlock lights)
+-- Interior Wall (to unlock lights, doors, ladders, and catwalks)
 - Progression
--- Interior Wall (on Base)
---- Interior Light (on Starter Ship)
 -- Battery
 --- Beacon
 ---- Antenna
+-- Interior Wall (on Base)
+--- Interior Light (on Starter Ship)
 - Tasks
--- Grind down needed Thrusters (4 atmo + 1 h2) for Metal Grids (for Small Cargo)
+-- Grind down needed Thrusters (4 atmo or 1 h2) for Metal Grids (for Small Cargo)
 -- Keep filling stone into small grid Survial Kit (~10K in med cargo)
--- Ensure Production is completed thru the base's Basic Assembler
---- Manually move over ingots from the Survival Kit to the Assembler
--- BEFORE the battery is produced/built: move Survival Kit to Large Grid
+-- Move all component Production to the base's Basic Assembler
+--- Manually move over ingots from the Survival Kit to the Assembler until the Survial Kit is moved
+-- Right BEFORE the battery is produced/built: move Survival Kit to Large Grid
+-- Notes: 
 --- Production of the 80 Power Cells takes a long time
 --- The Large Grid Survival Kit only costs 29 more steel plates than the Small Grid
 --- The Advanced Rotor, with a Small Head, allows all the parts from the Starter Ship to be built 1:1 on the base
---- This saves signigicant time and resources at the start of a new game
+---- This saves signigicant time and resources at the start of a new game for _some_ strategies/locations
+---- HOWEVER, some games don't need/touch some blocks aside from unlocking progression
 
 Phase III - Static Drill Setup
 ------------------------------
@@ -92,23 +95,27 @@ Phase III - Static Drill Setup
 Note: Assume Large Grid blocks for building.
 
 - Production
--- Basic Refinery x2 (to start Drill production for steel plates)
+-- Basic Refinery x2 (to start Drill production of steel plates/etc.)
 -- Drill x1
 -- Conveyors x 8
--- Advanced Rotor
+-- Advanced Rotor -or- Hinge
 -- Piston 
--- Drill x 5*
+-- Drill x 7*
 - Building
 -- Extend conveyors out for static drilling
 -- Recommend Horizontal Drilling IF no jetpacks
 --- *Two main methods: (1) Piston + Hinge sweeping or (2) Piston + Rotor spinning 
 ---- Rotor spinning can be 7-wide
----- Hinge sweeping can be 7-wide, but 5/6-wide is more stable
+---- Hinge sweeping can be 7-wide/tall, but 5/6-wide is more stable
 - Progression
 -- You sould build the Basic Refinery and tear it down for the first Drill
---- Drills NEED a refinery
---- However, the Survial Kit is better or equal to the Basic Refinery for Stone
+--- Drills NEED a refinery to have built
+--- The Survial Kit is better or equal to the Basic Refinery for Stone when on Large grid
+--- (Opinion!) Expandable, rotor-spinning drills are better than piston-hinge sweeping drills
 - Tasks
+-- Ensure power needs are met (5-spoke Wind Turbines should be okay, more batteries _might_ be needed)
+-- The Refinery _should_ be built when the first, large grid drill becomes operational
+-- Try to re-use designs for static rig, but in the worst case: tear down and rebuild rigs 
 
 Phase IV - Final Progression before Cobalt
 -------------------------------------------
@@ -120,11 +127,21 @@ Phase IV - Final Progression before Cobalt
 -- Refinery (Less the Grids)
 -- Assembler (Less the Grids)
 -- Large Cargo Container (Less the Grids)
-- Building
--- On the Small Grid attached to the base
---- Rocket Launcher
---- Sound Block
---- Door 
+-- Associated materials for a 4-atmospheric thruster (small grid) ship
+--- with Ore Detector and Antenna
+- Building (On the Small Grid attached to the base)
+-- Rocket Launcher
+-- Sound Block
+-- Door 
+- Progression
+-- Odds and ends for the tree, or missed items above
+- Tasks
+-- Expand drills and the rig
+-- WATCH OUT for gravel build up (i.e., reccomend a Conveyor Sorter and Connector to eject waste gravel)
+-- Make a very simple air ship for air-based ore detection
+--- IF the atmospheric thrusters survived the fall and not used in the Small Cargo Container
+--- Thrusters: down, forward, left, and right (additional breaking can be achieved through "leaning" back to break -- like a skate board)
+--- Other considerations: Bottom Connector (to simplify transfer and battery charging) and a Medium Cargo container
 
 Phase V - Post-Cobalt Processing Progression
 -------
@@ -132,9 +149,14 @@ Phase V - Post-Cobalt Processing Progression
 Note: This phase can only begin after Cobalt is acquired/processed; unless other means of finding/acquiring metal grids is available.
 
 - Production 
--- Assembler, Refinery, Large Cargo Grids
--- Equipment: Enhanced Drill, Enhanced Grinder, Enhanced Welder
+-- Assembler, Refinery, Large Cargo Container(s)
+-- Equipment: Enhanced Drill, Enhanced Grinder, Enhanced Welder (i.e., 2nd tier tools)
 - Build
 -- Assembler
 -- Refinery
 -- Large Cargo Container
+- Progression
+-- All cobalt-needed
+- Tasks
+-- Keep Drill Rig expanding/running
+-- After silver is found: get second-tier upgraded tools
